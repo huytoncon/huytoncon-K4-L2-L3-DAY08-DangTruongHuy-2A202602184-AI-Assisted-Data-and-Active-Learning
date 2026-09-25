@@ -1,0 +1,4 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0227.jpg,"xe nhỏ/tối gần giữa ảnh, chỉ thấy cụm đèn pha mờ, thân xe chìm vào nền tối",added,"AI bỏ sót xe nhỏ/tối - vẽ box theo phần thân đoán được quanh cụm đèn, không chỉ khoanh hai chấm đèn (GUIDELINE_LABEL.md)"
+1,frame_0227.jpg,box AI trùng lên xe tải/van lớn ở giữa ảnh (đã có box khác ôm đúng xe này),deleted,"Box trùng nhau trên cùng một xe - chỉ giữ một box, không nhân đôi (GUIDELINE_LABEL.md)"
+1,frame_0227.jpg,"xe tải/van lớn ở giữa ảnh, box AI đề xuất lệch, không ôm sát nóc và đuôi xe",edited,Chỉnh lại box bị lệch cho ôm sát thân xe theo GUIDELINE_LABEL.md
